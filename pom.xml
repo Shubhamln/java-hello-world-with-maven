@@ -56,6 +56,13 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
+  
+  <distributionManagement>
+   <snapshotRepository>
+      <id>Deploy-Artifact</id>
+      <url>http://localhost:8081/repository/Deploy-Artifact/</url>
+   </snapshotRepository>
+</distributionManagement>
 
 </project>
 
